@@ -1,0 +1,152 @@
+body{
+	background-color:#1abc9c;
+	color: yellow;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	margin:0px;
+	line-height: 2.6em;
+}
+.wrapper {
+	display: flex;
+	columns: auto auto;
+	/*background-color: orange;*/
+}
+
+.wrapper h3{
+	text-align: center;
+}
+
+.wrapper  div {
+	padding: 2em 10%;
+
+}
+
+.rightWala {
+	float: right;
+	background-color:black;
+	flex-basis: 30%;
+	order:1;
+}
+.leftWala {
+	float: left;
+	background-color:transparent;
+	flex-basis: 70%;
+	order:2;
+	border: 5px solid black;
+}
+
+.container{
+	color: blue;
+	margin: auto;
+	width: 100%;
+	margin-top: 10px;
+}
+.container h1{
+	color: red;
+	text-align: center;
+
+
+}
+.main_div{
+	margin-top: 60px;
+	background-image: url('../images/rose.jpg');
+	text-align: left;
+	margin-left: 30px;
+	margin-right: 30px;
+
+	background-position:100px 200px;
+	background-position:center top;	
+}
+.div1{
+	
+	margin-left: 0px;
+	text-align: center;
+	background-color: maroon;
+
+
+}
+#abc h3{
+      color: blue;
+      text-align: center;
+	}
+.div2{
+	
+	margin-left: 0px;
+	margin-right: 350px;
+    padding-bottom: 40px;
+	background-color: black;
+	color: white;
+	text-align: center;
+	overflow: hidden;
+}
+.div3{
+	margin-left:450px;
+	background-color:transparent;
+    padding-bottom: 40px;
+    text-align: center;
+    color:gold;
+    border: 5px solid black;
+
+}
+.div4{
+	margin-left:0px;
+	background-color: magenta;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.div5{
+	margin-left:0px;
+	margin-top: 40px;
+	background-color: orange;
+    padding-bottom: 40px;
+    margin-bottom:50px; 
+}
+#main{
+	float: left;
+	width: 70%;
+	padding: 0% 3%;
+	box-sizing: border-box;
+}
+#sidebar{
+	margin-top: 0px;
+	float: right;
+	width: 30%;
+	background: pink;
+	color: #fff;
+}
+#sidebar p:hover{
+	
+	color: black;
+}
+#sidebar h2{
+	text-align: center;
+	color: yellow;
+	text-decoration: underline;
+	font-family: Tahoma;
+	font-style: italic;
+	word-spacing: 1em;
+	letter-spacing:0.1em;
+	
+}
+#sidebar h2:hover{
+	background:maroon;
+	color: yellow;
+}
+#main-footer{
+	background: black;
+	color: white;
+	padding:5px;
+	margin-top:730px;
+	text-align: center;
+}
+@media(max-width:600px){
+	#main{
+		width:100%;
+		float:none;
+	}
+
+	#sidebar{
+		width:100%;
+		float:none;
+	}
+}

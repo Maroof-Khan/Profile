@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+}
+/* Style the body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+    padding: 1px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+    font-size: 30px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+/* Right-aligned link */
+
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: magenta;
+}
+.wrapper div{
+   display: flex;
+   /*flex-direction: row;*/
+    border:1px #ccc solid;
+}
+.wrapper{
+    display:flex;
+    flex-wrap: wrap;
+    /*columns: auto auto;*/
+    background-color:#f4f4f4;
+    justify-content:space-between;
+    /*padding-right: 0px;*/
+   
+}
+.leftWala {
+    
+    /*float: left;*/
+    cursor: pointer;
+    background-color:pink;
+    width:650px;
+}
+.leftWala p{
+    padding-left: 40px;
+    padding-top: 80px;
+    font-family:sans-serif;
+    /*breakpoint-md:768px;*/
+    /*text-decoration-style:dotted;*/
+}
+
+.right-wala {
+    float: right;
+    background-color:#343a40;
+    /*width: 600px;*/
+    background-repeat: no-repeat;
+   
+}
+.div-img{
+    margin-left: 200px;
+}
+.quat u h3{
+    background-color:maroon; 
+    color:white;
+}
+.quat h2:hover{
+    background:maroon;
+    color: white;
+}
+.quat h3{
+    background:#779900;
+    color:black;
+
+}
+/*///////image container//////////*/
+.mar-img div{
+   display: flex;
+   flex-direction: row;
+    border:1px #ccc solid;
+}
+.mar-img{
+     display:flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+    /*columns: auto auto;*/
+     background-color: #f4f4f4;
+     justify-content:space-between;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    -ms-flex: 30%; 
+    flex: 30%;
+    background-color:#f4f4f4;
+    padding: 20px;
+}
+
+/* Main column */
+.main {   
+    -ms-flex: 70%;
+    flex: 70%;
+    background-color:transparent;
+    padding: 20px;
+    background-repeat: no-repeat;
+}
+/* Fake image, just for this example */
+/*three flex box***************/
+.container-1 div{
+    display: flex;
+    flex-direction: row;
+    border:1px #ccc solid;
+
+  }
+.container-1{
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    background-color: #f4f4f4;
+     justify-content: space-between;
+}
+/* Footer */
+#main-footer{
+    padding: 5px;
+    text-align: center;
+    background: black;
+    color: white;
+}
+.pro h4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row {   
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
+/*@media screen and(max-width: 400px){
+    .wrapper div{
+        float:none;
+        width: 100%;
+    }
+}Not working*/
+/*@media screen and(max-width: 400px){
+    .container div{
+        float:none;
+        width: 100%;
+    }
+}*/
+/*@media screen and(max-width: 400px){
+    .container-1 div{
+        float:none;
+        width: 100%;
+    }
+}*/
