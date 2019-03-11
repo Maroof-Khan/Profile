@@ -1,15 +1,18 @@
-var myImage = document.querySelector('img');
-
-myImage.onclick = function() {
+function changeImage(){
+   var myImage = document.querySelector('img');
+    myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/earth.jpg') {
-      myImage.setAttribute ('src','images/help.jpg');
+    if(mySrc === './../images/earth.jpg') {
+      myImage.setAttribute('src','./../images/help.jpg');
     } else {
-      myImage.setAttribute ('src','images/earth.jpg');
+      myImage.setAttribute('src','./../images/earth.jpg');
     }
+  }
 }
+
 var myButton = document.querySelector('button');
 var myHeading = document.querySelector('h1');
+console.log("myHeading h1"+myHeading);
 myButton.onclick = function() {
   setUserName();
 }

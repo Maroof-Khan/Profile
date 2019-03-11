@@ -1,34 +1,36 @@
 html {
   font-size: 10px;
   font-family: 'Open Sans', sans-serif;
+  background-color:#f3e0e0;
 }
-
-
-h1 {
-  font-size: 60px;
+.navbar{
+  background-color: #999;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 5px 0px;
+}
+body{
+  background-color: #d9edf7;
+}
+.nature h1 {
+  font-size: 2.6em;
   text-align: center;
 }
 
-p, li {
+.nature p, li {
   font-size: 16px;  
   line-height: 2;
   letter-spacing: 1px;
 }
 
-
-html {
-  background-color: #1166ff;
-}
-
-body {
-  width: 600px;
-  margin: 0 auto;
+.nature {
+  margin: 0rem 13rem;
   background-color: #779900;
-  padding: 0 20px 20px 20px;
+  padding: 0rem 13rem 10rem 0rem;
   border: 5px solid black;
 }
 
-h1 {
+.nature h1 {
   margin: 0;
   padding: 20px 0;  
   color: #eeeeee;
